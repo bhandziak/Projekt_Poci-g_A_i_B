@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie Bartłomiej Handziak</title>
+    <link rel="stylesheet" href="test.css" />
+</head>
+<body>
+
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+          <h1>Ta strona obliczy zadania typu I pociąg wyjechał ze stacji A a II pociąg wyjechał na pieciwko pierwszemu ze stacji B. Obliczy w jakiej odleglości się spotkają i po jakim czasie.</h1>
+          <form>
+            <h3>Podaj prędkość pierwszego pociągu: (w km/h)</h3>
+            
+            <br>
+            <input id="pierwszy" placeholder="Prędkość I"></input>
+            <br>
+            
+            <h3>Podaj prędkość drugiego pociągu: (w km/h)</h3>
+            
+            <br>
+            <input id="drugi" placeholder="Prędkość II"></input>
+            <br>
+            
+            <h3>Podaj odleglość między miastami: (w km)</h3>
+            
+            <br>
+            <input  id="dystans" placeholder="Odleglość"></input>
+            <button class="btn" onclick="train()">Zaczynamy!</button>
+
+            
+          </form>
+        </div>
+    </div>
+    <script src="test.js"></script>
+
+
+</body>
+</html>
